@@ -30,11 +30,23 @@ Below create a Bibliography to code, tutorial, or plugins you've used in the pro
 for citation - [https://www.scribbr.co.uk/referencing/harvard-website-reference/](https://www.scribbr.co.uk/referencing/harvard-website-reference/)
 ## Biblography
 
-Harsh Lohia
-1. Lohia, H. (2021) ‘Flutter Registration & Login Using Firebase’, Medium, 16 January. Available at: [https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066](https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066) (Accessed: 05 05 2022).
+**Code and Tutorials*
 
+- Lohia, H. (2021) 'Flutter Registration & Login Using Firebase', Medium, 16 January. Available at: [https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066](https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066) (Accessed: 05 05 2022).
+- Lohia, H. (2021) 'flutter-signup-login', GitHub, 2 March. Available at: [https://github.com/harshlohia11/flutter-signup-login](https://github.com/harshlohia11/flutter-signup-login) (Accessed: 05 05 2022).
+- Biswas S. (2021) 'Implementing Firebase Authentication in a Flutter app', LogRocket, 24 May. Available at: [https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user](https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user) (Accessed: 06 05 2022)
+- Biswas S. (2021) 'flutter-authentication', GitHub, 23 April. Available at: [https://github.com/sbis04/flutter-authentication](https://github.com/sbis04/flutter-authentication) (Accessed: 06 05 2022)
+- Biswas S. (2020) 'Creating a route calculator using Google Maps in Flutter', CodeMagic, 28 May. Available at: [https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/](https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/) (Accessed: 10 May 2022)
+- Biswas S. (2021) 'flutter-maps', GitHub, 31 May. Available at: [https://github.com/sbis04/flutter_maps](https://github.com/sbis04/flutter_maps) (Accessed: 10 May 2022)
 
-2. Last name, First initial. (Year published). Title. Edition. (Only include the edition if it is not the first edition) City published: Publisher, Page(s).  <http://google.com>
+**Packages and Plugins**
+
+- Google (2022) 'Firebase Auth for Flutter', Pub.Dev, NA. Available at: [https://pub.dev/packages/firebase_auth](https://pub.dev/packages/firebase_auth) (Accessed: 04 04 2022)
+- Google (2022) 'Flutter Progress HUD', Pub.Dev, NA. Available at: [https://pub.dev/packages/flutter_progress_hud](https://pub.dev/packages/flutter_progress_hud) (Accessed: 04 04 2022)
+- Google (2022) 'Flutter Geolocator Plugin', Pub.Dev, NA. Available at: [https://pub.dev/packages/geolocator](https://pub.dev/packages/geolocator) (Accessed: 10 04 2022)
+- Google (2022) 'Flutter Geocoding Plugin', Pub.Dev, NA. Available at: [https://pub.dev/packages/geocoding](https://pub.dev/packages/geocoding) (Accessed: 10 04 2022)
+- Google (2022) 'flutter_polyline_points', Pub.Dev, NA. Available at: [https://pub.dev/packages/flutter_polyline_points](https://pub.dev/packages/flutter_polyline_points) (Accessed: 10 04 2022)
+
 
 ----
 

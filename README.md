@@ -19,7 +19,8 @@ Following the prototype, I set up an initial Flutter application
 **3. Implement Navigation and App Hierarchy**
 
 Once the Flutter application was set up, I wanted to implement more screens. This also entailed deciding in what order to display screens and deciding how best to navigate throughout this hierarchy. I decided that a drawer menu would be best to faciliate navigation, and that subsequent screens should branch out from the home screen. Throughout this process, I realized that the code for the drawer menu would need to be replicated for every screen it was needed on. Therefore, I decided to rewrite it as a standalone function which I can call to each screen, instead of rewriting code.  
-<img src="https://user-images.githubusercontent.com/33913141/169075063-ac0dfb84-9fba-41d0-81f4-5046290b5ce3.png" width="200"/> <img src="[image1.png](https://user-images.githubusercontent.com/33913141/169075130-dfe84457-5d8e-416f-9c5d-973136aa24dc.png)" width="200"/>
+<img src="https://user-images.githubusercontent.com/33913141/169075063-ac0dfb84-9fba-41d0-81f4-5046290b5ce3.png"width="200"/>
+<img src="[image1.png](https://user-images.githubusercontent.com/33913141/169075130-dfe84457-5d8e-416f-9c5d-973136aa24dc.png)" width="200"/>
 ![Home Screen]() ![Drawer Menu]()
 
 **4. Implementing Firebase and Authorization**

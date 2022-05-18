@@ -34,7 +34,7 @@ Before beginning this build I protoyped CroissAcq on [Figma](https://www.figma.c
 ![Figma App Prototype](https://user-images.githubusercontent.com/33913141/169050269-80cea902-d18c-4040-b173-f8862cb0ab56.png)
 
 
-**Set Up Flutter App*
+**Set Up Flutter App**
 
 Following the prototype, I set up an initial Flutter application
 

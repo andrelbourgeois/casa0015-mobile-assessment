@@ -39,25 +39,31 @@ Next steps for this project include using the existing functionality to make a s
 - Utilize routing features to create the "FIND ME A CROISSANT" button
 - Implement validation error handling for authorization
 
-## Key Packages Used
-[**firebase_auth 3.3.17**](https://pub.dev/packages/firebase_auth)
+## Repositories and Tutorials Used
+- Flutter Registration & Login Using Firebase by Harsh Lohia (2021)
+Article - [https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066](https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066)
+GitHub - [https://github.com/harshlohia11/flutter-signup-login](https://github.com/harshlohia11/flutter-signup-login)
+- Implementing Firebase Authentication in a Flutter App by Souvik Biswas (2021)
+Article - [https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user](https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user)
+GitHub - [https://github.com/sbis04/flutter-authentication](https://github.com/sbis04/flutter-authentication)
+- Creating a Route Calculator Using Google Maps in Flutter by Souvik Biswas (2021)
+Article - [https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/](https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/) 
+GitHub - [https://github.com/sbis04/flutter_maps](https://github.com/sbis04/flutter_maps)
 
+## Key Packages Used
+- [**firebase_auth 3.3.17**](https://pub.dev/packages/firebase_auth)
 Used for the purpose of authentication users, links with firebase within Google Cloud Platform
 
-[**google_maps_flutter 2.0.2**](https://pub.dev/packages/google_maps_flutter)
-
+- [**google_maps_flutter 2.0.2**](https://pub.dev/packages/google_maps_flutter)
 Used in conjunction with Google Maps API in order to host a map in-app
 
-[**flutter_polyline_points 0.2.6**](https://pub.dev/packages/flutter_polyline_points)
-
+- [**flutter_polyline_points 0.2.6**](https://pub.dev/packages/flutter_polyline_points)
 This package contains functions to decode google encoded polyline string which returns a list of co-ordinates indicating route between two geographical position
 
-[**geolocator 8.2.1**](https://pub.dev/packages/geolocator)
-
+- [**geolocator 8.2.1**](https://pub.dev/packages/geolocator)
 A Flutter geolocation plugin which provides easy access to platform specific location services
 
-[**geocoding 2.0.4**](https://pub.dev/packages/geocoding)
-
+- [**geocoding 2.0.4**](https://pub.dev/packages/geocoding)
 Geocoding is the computational process by which a physical address is converted into geographic coordinates. This package provides geocoding and reverse geocoding features. 
 
 ## How to Run

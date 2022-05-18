@@ -31,7 +31,7 @@ Geocoding is the computational process by which a physical address is converted 
 **Develop App Prototype**
 
 Before beginning this build I protoyped CroissAcq on [Figma](https://www.figma.com) to get an idea of how I wanted the app to look and feel for the user.
-![Figma App Prototype](https://user-images.githubusercontent.com/33913141/169046529-0a3a7d09-76fa-48c2-88c1-e2cfdf82271f.png)
+![Figma App Prototype](https://user-images.githubusercontent.com/33913141/169050269-80cea902-d18c-4040-b173-f8862cb0ab56.png)
 
 
 **Set Up Flutter App*

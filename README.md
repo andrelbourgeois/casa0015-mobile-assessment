@@ -28,7 +28,7 @@ Finally, to allow routing to the nearest bakery or cafe, I needed to implement m
 
 
 **Critical Next Steps**  
-Next steps for this project include using the existing functionality to make a single button which can route a user towards their nearest bakery or cafe
+Next steps for this project include using the existing functionality to make a single button which can route a user towards their nearest bakery or cafe.
 
 ## Current To Do List
 - Make colouring consistent

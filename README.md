@@ -19,14 +19,22 @@ Following the prototype, I set up an initial Flutter application
 **3. Implement Navigation and App Hierarchy**
 
 Once the Flutter application was set up, I wanted to implement more screens. This also entailed deciding in what order to display screens and deciding how best to navigate throughout this hierarchy. I decided that a drawer menu would be best to faciliate navigation, and that subsequent screens should branch out from the home screen. Throughout this process, I realized that the code for the drawer menu would need to be replicated for every screen it was needed on. Therefore, I decided to rewrite it as a standalone function which I can call to each screen, instead of rewriting code.
+![Home Screen](https://user-images.githubusercontent.com/33913141/169075063-ac0dfb84-9fba-41d0-81f4-5046290b5ce3.png)
+![Drawer Menu](https://user-images.githubusercontent.com/33913141/169075130-dfe84457-5d8e-416f-9c5d-973136aa24dc.png)
 
 **4. Implementing Firebase and Authorization**
 
 Once I had a few pages laid out, I wanted to handle user information handling and authorization. Using Firebase - various code and tutorials referenced below - I implemented welcome, registration, and login screens to obtain user information (email and password) which is subsequently stored within a Firebase project. This project and database are then used to match user information together and allow or deny access to the rest of the app. A profile screen was also implemented which retrieves user information (email) from Firebase and displays it for the logged in user. This screen can be accessed by tapping the avatar circle at the top of the drawer menu. Additionally, the profile screen allows the user to log out.
+![Welcome Screen](https://user-images.githubusercontent.com/33913141/169075263-4851253f-c1a2-411e-a48f-aed1b039e667.png)
+![Registration Screen](https://user-images.githubusercontent.com/33913141/169075326-575db84b-80df-4377-a6a3-22ba4f4d529f.png)
+![Login Screen](https://user-images.githubusercontent.com/33913141/169075363-feb24864-d894-49d9-864d-e1dad404eb19.png)
+![Profile Screen](https://user-images.githubusercontent.com/33913141/169075438-9589c00b-c6e4-4112-8656-07ee1b1399ad.png)
 
 **5. Implementing Mapping Functionality**
 
 Finally, to allow routing to the nearest bakery or cafe, I needed to implement mapping functionality. I used the Google Maps API to natively host a map within CroissAcq. Through the use of code, tutorials, and packages (referenced below) I was able to overlay this map with routing functionality that allows a user to isolate their own location, as well as determine a route between two locations via text entry.
+![Map Screen](https://user-images.githubusercontent.com/33913141/169075512-86a676a7-fddf-48e3-951a-9d7080728c8a.png)
+
 
 **Critical Next Steps**
 

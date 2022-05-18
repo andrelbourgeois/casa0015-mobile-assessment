@@ -7,24 +7,24 @@ The intent of this project was to develop a mobile app using Flutter and Dart th
 The major assumption being made within this project is that every bakery or cafe will have a croissant. As it would be impossible (or near enough) to actually determine which locations bake croissants and which locations still have croissants in stock, the best way to lead someone to their probable closest croissant would be to route them to the bakery closest to their location. Therefore, this project aims to to just that - route users to their closest bakery or cafe in order to acquire a croissant.
 
 ## Process to Date
-**Develop App Prototype**
+**1. Develop App Prototype**
 
 Before beginning this build I protoyped CroissAcq on [Figma](https://www.figma.com) to get an idea of how I wanted the app to look and feel for the user.
 ![Figma App Prototype](https://user-images.githubusercontent.com/33913141/169050269-80cea902-d18c-4040-b173-f8862cb0ab56.png)
 
-**Set Up Flutter App**
+**2. Set Up Flutter App**
 
 Following the prototype, I set up an initial Flutter application
 
-**Implement Navigation and App Hierarchy**
+**3. Implement Navigation and App Hierarchy**
 
 Once the Flutter application was set up, I wanted to implement more screens. This also entailed deciding in what order to display screens and deciding how best to navigate throughout this hierarchy. I decided that a drawer menu would be best to faciliate navigation, and that subsequent screens should branch out from the home screen. Throughout this process, I realized that the code for the drawer menu would need to be replicated for every screen it was needed on. Therefore, I decided to rewrite it as a standalone function which I can call to each screen, instead of rewriting code.
 
-**Implementing Firebase and Authorization**
+**4. Implementing Firebase and Authorization**
 
 Once I had a few pages laid out, I wanted to handle user information handling and authorization. Using Firebase - various code and tutorials referenced below - I implemented welcome, registration, and login screens to obtain user information (email and password) which is subsequently stored within a Firebase project. This project and database are then used to match user information together and allow or deny access to the rest of the app. A profile screen was also implemented which retrieves user information (email) from Firebase and displays it for the logged in user. This screen can be accessed by tapping the avatar circle at the top of the drawer menu. Additionally, the profile screen allows the user to log out.
 
-**Implementing Mapping Functionality**
+**5. Implementing Mapping Functionality**
 
 Finally, to allow routing to the nearest bakery or cafe, I needed to implement mapping functionality. I used the Google Maps API to natively host a map within CroissAcq. Through the use of code, tutorials, and packages (referenced below) I was able to overlay this map with routing functionality that allows a user to isolate their own location, as well as determine a route between two locations via text entry.
 
@@ -40,14 +40,14 @@ Next steps for this project include using the existing functionality to make a s
 - Implement validation error handling for authorization
 
 ## Repositories and Tutorials Used
-- Flutter Registration & Login Using Firebase by Harsh Lohia (2021)
-Article - [https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066](https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066)
+- Flutter Registration & Login Using Firebase by Harsh Lohia (2021)  
+Article - [https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066](https://medium.com/code-for-cause/flutter-registration-login-using-firebase-5ada3f14c066)  
 GitHub - [https://github.com/harshlohia11/flutter-signup-login](https://github.com/harshlohia11/flutter-signup-login)
-- Implementing Firebase Authentication in a Flutter App by Souvik Biswas (2021)
-Article - [https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user](https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user)
+- Implementing Firebase Authentication in a Flutter App by Souvik Biswas (2021)  
+Article - [https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user](https://blog.logrocket.com/implementing-firebase-authentication-in-a-flutter-app/#register-a-new-user)  
 GitHub - [https://github.com/sbis04/flutter-authentication](https://github.com/sbis04/flutter-authentication)
-- Creating a Route Calculator Using Google Maps in Flutter by Souvik Biswas (2021)
-Article - [https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/](https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/) 
+- Creating a Route Calculator Using Google Maps in Flutter by Souvik Biswas (2021)  
+Article - [https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/](https://blog.codemagic.io/creating-a-route-calculator-using-google-maps/)  
 GitHub - [https://github.com/sbis04/flutter_maps](https://github.com/sbis04/flutter_maps)
 
 ## Key Packages Used
